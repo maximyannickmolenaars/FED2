@@ -15,10 +15,10 @@
     lopen de studenten stage, in het tweede en afstudeerjaar.
     </p>
 
-    <blockquote><em>
+    <em>
     CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad
     Amsterdam.
-    </em></blockquote>
+    </em>
 
     <p>
     Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen.
@@ -59,11 +59,8 @@
         <br />
         <label for="stage">Als een stagebedrijf</label>
         <input type="radio" name="pro" id="stage" >
-
         </fieldset>
-     </form>
 
-     <form>
         <fieldset>
         <legend>Project</legend>
         <p>
@@ -112,10 +109,8 @@
         </p>
         </fieldset>
 
-     </form>
-    <aside>
-     <form>
-         <fieldset>
+        <fieldset>
+
              <legend>Als een stagebedrijf</legend>
             <p>
                 Geschikt voor <br />
@@ -175,7 +170,7 @@
 
          </fieldset>
      </form>
-    </aside>
+
     </main>
 
 <script src="script.js"></script>
