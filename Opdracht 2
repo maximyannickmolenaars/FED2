@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+    <h1>Aanmelden</h1>
+
+    <p>
+    Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan!
+    Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook
+    lopen de studenten stage, in het tweede en afstudeerjaar.
+    </p>
+
+    <blockquote><em>
+    CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad
+    Amsterdam.
+    </em></blockquote>
+
+    <p>
+    Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen.
+    Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+    Voor vragen of opmerkingen kunt u contact [link: contact] met ons op.
+    </p>
+
+    <form>
+       <fieldset>
+        <legend>Contactgegevens</legend>
+        <p>
+        <label for="name">Naam*</label>
+        <input type="text" id="name" required>
+        </p>
+        <p>
+        <label for="bedrijf">Bedrijf</label>
+        <input type="text" id="bedrijf">
+        </p>
+        <label for="adres">Adres</label>
+        <input type="text" id="adres">
+        <p>
+        <label for="postcode">Postcode</label>
+        <input type="text" id="postcode" placeholder="1234AB" maxlength="6">
+        </p>
+        <label for="plaats">Plaats</label>
+        <input type="text" id="plaats">
+        <p>
+        <label for="telefoon">Telefoon</label>
+        <input type="number" id="telefoon" >
+        </p>
+        <p>
+        <label for="email">Email*</label>
+        <input type="email" id="email" required>
+        </p>
+        <h4>Ik wil mij aanmelden</h4>
+        <label for="project">Voor een project</label>
+        <input type="radio" name="pro" id="project">
+        <br />
+        <label for="stage">Als een stagebedrijf</label>
+        <input type="radio" name="pro" id="stage" >
+
+        </fieldset>
+     </form>
+
+     <form>
+        <fieldset>
+        <legend>Project</legend>
+        <p>
+        <label for="titel">Titel</label>
+        <input type="text" id="titel" required>
+        </p>
+        <p>
+        <label for="opdromschrijving">Opdrachtomschrijving</label>
+        <br />
+        <textarea name="omschrijving" cols=40 rows=6 id="opdromschrijving"></textarea>
+        </p>
+        <p>
+        <label for="dlomschrijving">Doelgroepomschrijving</label>
+        <br />
+        <textarea name="doelomschrijving" cols=40 rows=6 id="dlomschrijving"></textarea>
+        </p>
+        <p>
+        <label for="doelstelling">Doelstelling/ intentie van het project</label>
+        <br />
+        <textarea name="doelstelling" cols=40 rows=6 id="doelstelling"></textarea>
+        </p>
+        <p>
+        <label for="looptijd">Looptijd</label>
+        <br />
+        van
+        <input type="date" id="looptijd" required>
+        <br />
+        tot
+        <input type="date" id="looptijd1" required>
+        </p>
+        <p>
+        <label for="deadline">Deadline</label>
+        <input type="date" id="deadline" required>
+        </p>
+        Geschikt voor <br />
+        <select name="Geschikt voor">
+          <option value="onbekend">Onbekend</option>
+          <option value="Tweedejaars studenten">Tweedejaars studenten</option>
+          <option value="Derdejaars studenten">Derdejaars studenten</option>
+          <option value="Afstudeer studenten">Afstudeerstudenten</option>
+        </select>
+        <p>
+        <label for="opmerkingen">Opmerkingen</label>
+        <br />
+        <textarea name="opmerkingen" cols=40 rows=6 id="opmerkingen"></textarea>
+        </p>
+        </fieldset>
+
+     </form>
+    <aside>
+     <form>
+         <fieldset>
+             <legend>Als een stagebedrijf</legend>
+            <p>
+                Geschikt voor <br />
+                <select name="Geschikt voor">
+                  <option value="onbekend">Onbekend</option>
+                  <option value="Tweedejaars studenten">Tweedejaars studenten</option>
+                  <option value="Afstudeer studenten">Afstudeer studenten</option>
+                 </select>
+             </p>
+             <p>
+                Hoe lang is de stage? <br />
+                <select name="weken">
+                  <option value="10 weken">10 weken</option>
+                  <option value="20 weken">20 weken</option>
+                 </select>
+             </p>
+             <p>
+                 <label for="begindatum">Begindatum</label>
+                 <input type="date" id="begindatum" required>
+             </p>
+             <p>
+                 <label for="werkzaamheden">Beschrijving werkzaamheden</label>
+                 <br />
+                 <textarea name="opmerkingen" cols=40 rows=6 id="werkzaamheden"></textarea>
+             </p>
+
+             <p>
+                <label for="bedrijfsnaam">Bedrijfsnaam*</label>
+                <input type="text" id="bedrijfsnaam" required>
+             </p>
+             <p>
+                <label for="adresbedrijf">Adres*</label>
+                <input type="text" id="adresbedrijf" required>
+             </p>
+             <p>
+                <label for="bedrijfpostcode">Postcode*</label>
+                <input type="text" id="bedrijfpostcode" placeholder="1234AB" maxlength="6" required>
+             </p>
+              <p>
+                <label for="plaatsbedrijf">Plaats*</label>
+                <input type="text" id="plaatsbedrijf" required>
+             </p>
+             <p>
+                <label for="sector">Sectortr*</label>
+                <input type="text" id="sector" required>
+             </p>
+             <p>
+                <label for="core">Core Business*</label>
+                <input type="text" id="core" required>
+             </p>
+              <p>
+                <label for="opmerkingen2">Opmerkingen</label>
+                <br />
+                <textarea name="opmerkingen" cols=40 rows=6 id="opmerkingen2"></textarea>
+                </p>
+
+
+         </fieldset>
+     </form>
+    </aside>
+    </main>
+
+<script src="script.js"></script>
+</body>
+</html>
