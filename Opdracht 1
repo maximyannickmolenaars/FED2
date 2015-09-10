@@ -11,7 +11,6 @@
 </header>
 
 <main>
-<article>
 <section>
 <h2>CMD Amsterdam</h2>
 
@@ -115,8 +114,8 @@ Mocht je als aankomend student meer willen weten of contact op willen nemen met 
 afgestudeerde studenten? Neem contact [link: contact] met ons op.
 </p>
 
+<h4>Uitstroomberoepen:</h4>
 <ol>
-Uitstroomberoepen:
     <li>Frontend developer</li>
     <li>Visual designer</li>
     <li>Interaction designer</li>
@@ -125,7 +124,6 @@ Uitstroomberoepen:
 </ol>
 
 </section>
-</article>
 </main>
 </body>
 </html>
